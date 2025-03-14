@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+#header {
+    background-image: radial-gradient(circle, #fa9c9c 0%,#ffbcbc 50%, #d99ef9dd 100%);
+    margin-top: 50px;
+}
+#nameAndTitle h1,h2 {
+    background-color: white;
+    color: rgb(79, 79, 79);
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1 {
+    font-family:'Grandiflora One';
+    font-size: 50px;
+    text-transform: uppercase;
+}
+h2 {
+    font-family:'Inclusive Sans';
+    text-transform: lowercase;
+}
+#contact {
+    list-style-type: none;
+}
+#contact i{
+    width: 30px;
+    color:#fa9c9c;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 40% auto;
+    margin: 80px;
+}
+#sidebar,#content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+h3{
+    font-family: 'Montserrat';
+}
