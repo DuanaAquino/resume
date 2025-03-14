@@ -26,20 +26,58 @@ h2 {
     list-style-type: none;
 }
 #contact i{
-    width: 30px;
+    width: 30px; 
+    margin-left: -20px;
     color:#fa9c9c;
 }
 
 #container {
     display: grid;
-    grid-template-columns: 40% auto;
+    grid-template-columns: 30% auto;
     margin: 80px;
 }
 #sidebar,#content {
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 40px;
 }
 h3{
     font-family: 'Montserrat';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.card {
+    border: 2px solid #aeaeaeae;
+    border-radius: 15px;
+    margin-right: 40px;
+    padding: 20px 40px 45px 40px;
+}
+#aboutMe{
+    border: 2px solid #aeaeaeae;
+    border-radius: 15px;
+    margin-right: 40px;
+    padding: 20px 40px;
+}
+#workExperiences{
+    border: 2px solid #aeaeaeae;
+    border-radius: 15px;
+    margin-right: 40px;
+    padding: 20px 40px;
+}
+#education{
+    border: 2px solid #aeaeaeae;
+    border-radius: 15px;
+    margin-right: 40px;
+    padding: 20px 40px;
+}
+p {
+    font-family: 'Montserrat';
+    line-height: 25px;
+}
+ul {
+    font-family: 'Montserrat';
+    line-height: 25px;
+}
+.title{
+    color: #fa9c9c;
 }
