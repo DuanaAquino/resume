@@ -81,3 +81,13 @@ ul {
 .title{
     color: #fa9c9c;
 }
+
+#links {
+    list-style-type: none;
+}
+#links i{
+    width: 30px; 
+    size: 40px;
+    margin-left: -20px;
+    color:#fa9c9c
+}
